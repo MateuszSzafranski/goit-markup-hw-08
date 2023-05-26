@@ -37,6 +37,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 450px; 
+            @include tablet {
+                width: 354px;
+            }
+            
+            @include desktop {
+                width: 270px;
+            }
     }
 
     &__title {
@@ -50,5 +58,14 @@
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: $brand-color-text-grey;
+        width: 450px;
+        
+            @include tablet {
+                width: 354px;
+            }
+        
+            @include desktop {
+                width: 270px;
+            }
     }
 }
