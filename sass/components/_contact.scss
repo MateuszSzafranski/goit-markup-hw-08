@@ -1,0 +1,23 @@
+.contact {
+    display: flex;
+    gap: 30px;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: $brand-color-text-grey;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.02em;
+        fill: currentColor;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:is(:hover, :focus) {
+            color: $brand-color-blue
+        }
+    }
+}

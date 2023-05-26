@@ -1,0 +1,71 @@
+.team {
+    background-color: $brand-color-grey;
+
+    &__title {
+        font-style: normal;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-bottom: 50px;
+    }
+    &__list {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    &__image {
+        display: block;
+    }
+    &__box {
+        background-color: $brand-color-white;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 0px 0px 4px 4px;
+    }
+    &__name {
+        font-style: normal;
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        margin-bottom: 10px;
+    }
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18x;
+        letter-spacing: 0.03em;
+        color: $brand-color-text-grey;
+    }
+    &__group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        fill: #AFB1B8;
+        margin-top: 16px;
+        list-style: none;
+        gap: 10px;
+    }
+    &__icons {
+        background: none;
+        width: 44px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-property: fill, background-color, border;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:is(:hover, :focus) {
+                fill: $brand-color-white;
+                background: $brand-color-blue;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+    }
+}

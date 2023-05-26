@@ -1,0 +1,48 @@
+.checkbox {
+    position: relative;
+    &__label {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    &__input {
+        margin-right: 7px;
+        background: $brand-color-black;
+        border-radius: 4px;
+    }
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: $brand-color-text-grey;
+    }
+    &__link {
+        color: $brand-color-blue;
+    }
+    &__button {
+        width: 200px;
+        height: 50px;
+        background: $brand-color-blue;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 124px;
+        cursor: pointer;
+    }
+    &__button-text {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: $brand-color-white;
+    }
+}

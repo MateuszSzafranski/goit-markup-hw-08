@@ -1,0 +1,161 @@
+.page-footer {
+    background-color: $brand-color-background;
+    color: $brand-color-white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &__footer {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 70px;
+    }
+    &__container {
+        display: block;
+    }
+    &__logo-bottom {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: $brand-color-white;
+    }
+    &__text-link {
+        text-decoration: none;
+    }
+    &__logo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: $brand-color-blue;
+    }
+    &__link {
+        list-style: none;
+        padding-top: 20px;
+    }
+    &__contact-nav {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: $brand-color-white;
+    }
+    &__contact {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.02em;
+        color: $brand-color-text-grey;
+        margin-right: 30px;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: color;
+
+        &:is(:hover, :focus) {
+            color: $brand-color-blue;
+            }
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $brand-color-white;
+    }
+            
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        fill: $brand-color-white;
+        margin-top: 20px;
+        list-style: none;
+        gap: 10px;
+    }
+            
+    &__icons {
+        background: rgba(255, 255, 255, 0.1);
+        width: 44px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: background-color;
+            
+        &:is(:hover, :focus) {
+            background-color: $brand-color-blue;
+            cursor: pointer;
+        }
+    }
+    
+    &__news {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $brand-color-white;
+        margin-bottom: 20px;
+    }
+    &__email {
+        display: flex;
+    }
+    &__input {
+        box-sizing: border-box;
+        width: 358px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        background: #2f303a;
+        margin-right: 12px;
+        padding: 15px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    &__submit {
+        background-color: $brand-color-blue;
+        border: 1px solid $brand-color-blue;
+        border-radius: 4px;
+        color: $brand-color-white;
+        font-size: 16;
+        line-height: 1.6;
+        font-weight: 700;
+        text-align: center;
+        padding: 10px 24px 10px 42px;
+        letter-spacing: 0.06rem;
+        position: relative;
+        top: 0px;
+        width: 200px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+    }
+    &__icon {
+        fill: $brand-color-white;
+        margin-left: 24px;
+    }
+}
+
+
