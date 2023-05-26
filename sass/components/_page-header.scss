@@ -32,4 +32,15 @@
         letter-spacing: 0.03em;
         color: $brand-color-blue;
     }
+
+   &__button {
+    background: green;
+   }
+
+    &__toggle {
+        width: 24px; 
+        height: 16px;
+        fill: blue;
+        
+    }
 }
