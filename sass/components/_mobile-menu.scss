@@ -2,6 +2,9 @@
     position: fixed;
     background-color: $brand-color-white;
     inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     &__close-button {
         position: absolute;
