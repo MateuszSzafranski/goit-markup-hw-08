@@ -1,6 +1,15 @@
 .navigation {
-    
-    margin-right: 300px;
+    display: none;
+    margin-right: 200px;
+
+    @include tablet {
+        display: flex;
+        margin-left: 83px;
+    }
+
+    @include desktop {
+        margin-left: 93px;
+    }
 
     &__list {
         display: flex;

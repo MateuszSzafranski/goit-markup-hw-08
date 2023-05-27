@@ -1,5 +1,11 @@
 .contact {
-    gap: 30px;
+    display: none;
+    
+
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+    }
 
     &__item {
         display: flex;
