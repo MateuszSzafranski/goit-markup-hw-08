@@ -8,25 +8,14 @@
         display: flex;
         gap: 30px;
 
-        flex-wrap: wrap;
         
-            @include desktop {
-                flex-wrap: nowrap;
-            }
-        }
     }
     &__item {
         flex-wrap: wrap;
         flex-basis: calc((100% - 20px) / 4);
         width: 450px;
         
-            @include tablet {
-                width: 354px;
-            }
-        
-            @include desktop {
-                width: 270px;
-            }
+            
     }
     &__box {
         background: $brand-color-grey;
@@ -38,13 +27,7 @@
         align-items: center;
         justify-content: center;
         width: 450px; 
-            @include tablet {
-                width: 354px;
-            }
             
-            @include desktop {
-                width: 270px;
-            }
     }
 
     &__title {
@@ -60,12 +43,7 @@
         color: $brand-color-text-grey;
         width: 450px;
         
-            @include tablet {
-                width: 354px;
-            }
-        
-            @include desktop {
-                width: 270px;
-            }
+            
     }
+}
 
