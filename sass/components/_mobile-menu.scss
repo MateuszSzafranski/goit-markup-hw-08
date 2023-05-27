@@ -54,3 +54,37 @@
     }
 }
 
+.menu-container__mobile-contact {
+    &__tel {
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+        color: $brand-color-blue;
+    }
+
+    &__mail {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.16;
+        letter-spacing: 0.02em;
+        color: $brand-color-text-grey;
+    }
+}
+.mobile-socials {
+    &__item {
+        
+    }
+    &__link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.22;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
