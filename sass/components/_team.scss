@@ -1,6 +1,5 @@
 .team {
     background-color: $brand-color-grey;
-    
 
     &__title {
         font-style: normal;
@@ -16,7 +15,11 @@
         align-items: center;
         justify-content: center;
         gap: 30px;
-
+    
+        @include tablet{
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
     
     }
     &__image {
