@@ -1,5 +1,4 @@
 .advantages {
-        display: none;
        
         
     &__list {
@@ -13,7 +12,7 @@
     &__item {
         flex-wrap: wrap;
         flex-basis: calc((100% - 20px) / 4);
-        width: 450px;
+        width: 27px;
         
             
     }
@@ -26,7 +25,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 450px; 
+        max-width: 450px; 
+        flex-direction: column;
+
+        @include tablet {
+            max-width: 354px;
+            flex-wrap: wrap;
+        }
+
+        @include desktop {
+            max-width: 270px;
+        }
             
     }
 
@@ -41,9 +50,16 @@
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: $brand-color-text-grey;
-        width: 450px;
+        max-width: 450px;
         
-            
+        @include tablet {
+                max-width: 354px;
+                flex-wrap: wrap;
+        }
+        
+        @include desktop {
+                max-width: 270px;
+        }
     }
 }
 
