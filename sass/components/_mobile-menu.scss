@@ -9,5 +9,13 @@
         right: 8px;
         background-color: transparent;
         border: none;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: fill;
+
+        &:is(:hover, :focus) {
+            fill: $brand-color-blue;
+            cursor: pointer;
+        }
     }
 }
