@@ -22,7 +22,7 @@
         gap: 30px;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 210px;
+        
 
         @include tablet {
                 max-width: 226px;
@@ -32,9 +32,8 @@
         
         @include desktop {
                 max-width: 170px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                
+            
             }
     }
     &__icons {
