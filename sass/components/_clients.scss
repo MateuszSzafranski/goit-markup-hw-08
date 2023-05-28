@@ -50,6 +50,9 @@
 
         @include desktop {
             max-width: 170px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         &:is(:hover, :focus) {
