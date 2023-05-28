@@ -26,6 +26,16 @@
         align-items: center;
         justify-content: center;
         max-width: 450px; 
+
+        @include tablet {
+            max-width: 354px;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        @include desktop {
+            max-width: 270px;
+        }
             
     }
 
