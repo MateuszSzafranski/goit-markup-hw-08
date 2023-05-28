@@ -22,16 +22,12 @@
         
 
         @include tablet {
-                max-width: 226px;
                 flex-direction: row;
                 flex-wrap: wrap;
             }
         
         @include desktop {
-                max-width: 170px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                flex-wrap: nowrap;
             }
     }
     &__icons {
@@ -44,6 +40,14 @@
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-property: border-color, fill;
+
+        @include tablet {
+            max-width: 226px;
+        }
+
+        @include desktop {
+            max-width: 170px;
+        }
 
         &:is(:hover, :focus) {
                 fill: $brand-color-blue;
