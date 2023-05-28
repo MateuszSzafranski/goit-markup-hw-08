@@ -42,9 +42,8 @@
         border-radius: 4px;
         width: 170px;
         height: 92px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: row;
+            flex-wrap: wrap;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-property: border-color, fill;
