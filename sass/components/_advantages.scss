@@ -13,6 +13,16 @@
         flex-wrap: wrap;
         flex-basis: calc((100% - 20px) / 4);
         width: 27px;
+
+        @include tablet {
+                max-width: 354px;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+        
+            @include desktop {
+                max-width: 270px;
+            }
         
             
     }
