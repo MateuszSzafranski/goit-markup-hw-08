@@ -12,21 +12,25 @@
         margin-bottom: 30px;
 
         @include tablet {
-            max-width: 354px;
             flex-direction: row;
             flex-wrap: wrap;
         }
         
         @include desktop {
-            max-width: 270px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            flex-wrap: nowrap;
         }
     }
 
     &__item {
-        flex-wrap: wrap;
+        width: 100%;
+
+        @include tablet {
+            max-width: 354px;
+        }
+
+        @include desktop {
+            max-width: 270px;
+        }
     }
 
     &__box {
@@ -54,19 +58,6 @@
         color: $brand-color-text-grey;
         max-width: 450px;
         flex-direction: column;
-        
-        @include tablet {
-            max-width: 354px;
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
-
-        @include desktop {
-            max-width: 270px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
     }
 }
 
