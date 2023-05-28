@@ -72,6 +72,9 @@
     }
 }
 .mobile-socials {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 48px;
     &__item {
         
     }
@@ -81,10 +84,12 @@
         font-size: 18px;
         line-height: 1.22;
         letter-spacing: 0.02em;
-        color: #2196F3;
+        color: $brand-color-blue;
         text-decoration: none;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-right: 20px;
+        
     }
 }
