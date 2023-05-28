@@ -11,9 +11,11 @@
         align-items: center;
         justify-content: flex-start;
         gap: 70px;
+        flex-direction: column;
     }
     &__container {
         display: block;
+        text-align: center;
     }
     &__logo-bottom {
         font-family: 'Raleway';
@@ -154,6 +156,10 @@
     &__icon {
         fill: $brand-color-white;
         margin-left: 24px;
+    }
+
+    &__media {
+        text-align: center;
     }
 }
 
