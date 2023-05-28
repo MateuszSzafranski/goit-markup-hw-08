@@ -12,6 +12,12 @@
         justify-content: flex-start;
         gap: 70px;
         flex-direction: column;
+
+        @include desktop {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
     &__container {
         display: block;

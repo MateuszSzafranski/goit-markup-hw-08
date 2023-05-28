@@ -15,9 +15,6 @@
     }
     &__list {
         list-style: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         fill: #AFB1B8;
         gap: 30px;
         flex-direction: row;
@@ -43,7 +40,7 @@
         width: 170px;
         height: 92px;
         flex-direction: row;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-property: border-color, fill;

@@ -1,6 +1,9 @@
 .offer {
     background-color: $brand-color-white;
     display: none;
+        @include tablet {
+            display: none;
+        }
     
     &__title {
         font-style: normal;
