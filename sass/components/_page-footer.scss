@@ -14,9 +14,7 @@
         flex-direction: column;
 
         @include desktop {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            flex-wrap: nowrap;
         }
     }
     &__container {
