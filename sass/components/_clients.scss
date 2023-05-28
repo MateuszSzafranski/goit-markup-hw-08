@@ -1,5 +1,14 @@
 .clients {
     background-color: $brand-color-white;
+    @include tablet {
+            max-width: 226px;
+            flex-wrap: wrap;
+        }
+    
+        @include desktop {
+            max-width: 270px;
+            flex-wrap: wrap;
+        }
     
     
     &__title {
