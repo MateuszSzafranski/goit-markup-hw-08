@@ -10,7 +10,7 @@
         max-width: 450px;
         width: 100%;
         margin-bottom: 30px;
-        
+
         @include tablet {
             max-width: 354px;
             flex-direction: row;
@@ -19,6 +19,9 @@
         
         @include desktop {
             max-width: 270px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 
@@ -60,6 +63,9 @@
 
         @include desktop {
             max-width: 270px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 }
