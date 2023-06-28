@@ -7,7 +7,6 @@
     padding-bottom: 60px;
 
     &__footer {
-        display: flex;
         align-items: center;
         justify-content: flex-start;
         gap: 70px;
@@ -20,6 +19,7 @@
     &__container {
         display: block;
         text-align: center;
+        margin-bottom: 60px;
     }
     &__logo-bottom {
         font-family: 'Raleway';
@@ -127,7 +127,7 @@
     }
     &__input {
         box-sizing: border-box;
-        width: 358px;
+        width: 100%;
         border: 1px solid rgba(255, 255, 255, 0.3);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
         border-radius: 4px;
@@ -168,6 +168,7 @@
 
     &__media {
         text-align: center;
+        margin-bottom: 60px;
     }
 }
 
