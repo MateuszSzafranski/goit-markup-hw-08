@@ -46,6 +46,9 @@
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-property: border-color, fill;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         @include tablet {
             max-width: 226px;
