@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: space-between;
     transform: translateX(100%);
+    padding: 30px;
 
     &__close-button {
         position: absolute;
@@ -67,7 +68,6 @@
         letter-spacing: 0.02em;
         color: $brand-color-blue;
         text-decoration: none;
-        margin: 40px;
     }
 
     &__mail {
@@ -77,13 +77,11 @@
         letter-spacing: 0.02em;
         color: $brand-color-text-grey;
         text-decoration: none;
-        margin: 40px;
     }
 }
 .mobile-socials {
     display: flex;
-    padding-bottom: 48px;
-    margin: 40px;
+    margin-top: 40px;
     &__item {
         
     }
@@ -98,7 +96,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-right: 20px;
+        padding-right: 10px;
+        margin-right: 10px;
+        border-right: 1px solid blue($color: $brand-color-blue);
         
     }
 }
