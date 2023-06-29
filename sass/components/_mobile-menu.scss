@@ -37,7 +37,9 @@
 
 .mobile-menu {
     margin-top: 48px;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
     &__link {
         font-weight: 500;
