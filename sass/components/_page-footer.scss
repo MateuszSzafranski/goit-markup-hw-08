@@ -7,10 +7,16 @@
     padding-bottom: 60px;
 
     &__footer {
-        align-items: center;
+        align-items: baseline;
         justify-content: flex-start;
         gap: 70px;
-        flex-direction: column;
+        
+
+        @include tablet {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;    
+        }
 
         @include desktop {
             flex-wrap: nowrap;
@@ -139,6 +145,16 @@
         line-height: 1.25;
         color: rgba(255, 255, 255, 0.6);
         margin-bottom: 20px;
+
+        @include tablet {
+            display: block;
+            width: 450px;
+        }
+
+        @include desktop {
+            width: 358px;
+        }    
+        
     }
     &__submit {
         background-color: $brand-color-blue;

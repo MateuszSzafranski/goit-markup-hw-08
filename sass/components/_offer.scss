@@ -4,6 +4,10 @@
         @include tablet {
             display: none;
         }
+
+        @include desktop {
+            display: block;
+        }
     
     &__title {
         font-style: normal;
