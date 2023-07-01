@@ -176,6 +176,10 @@
         text-align: center;
         cursor: pointer;
         margin: 0 auto;
+
+        @include desktop {
+            flex-direction: row;
+        }
     }
     &__icon {
         fill: $brand-color-white;
