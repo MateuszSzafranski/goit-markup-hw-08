@@ -58,6 +58,7 @@
                 line-height: 1.18;
                 letter-spacing: 0.03em;
                 margin-bottom: 10px;
+                text-align: left;
             }
         
         @include desktop {
@@ -65,6 +66,7 @@
                 line-height: 1.18;
                 letter-spacing: 0.03em;
                 margin-bottom: 10px;
+                text-align: left;
             }
     }
     &__text {
