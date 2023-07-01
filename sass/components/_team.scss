@@ -33,7 +33,17 @@
     
     }
     &__image {
-        display: block;
+        flex-direction: column;
+
+        @include tablet {
+            width: 354px;
+            height: 374px;
+        }
+
+        @include desktop {
+            width: 270px;
+            height: 260px;
+        }
     }
     &__box {
         background-color: $brand-color-white;
