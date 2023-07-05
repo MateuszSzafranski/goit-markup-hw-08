@@ -1,0 +1,78 @@
+.swiper {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    height: 1037px;
+    background-image: url(../../images/6.reviews/BackgroudMobile1x.jpg.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../../images/6.reviews/BackgroudMobile2x.jpg.jpg);
+        }
+    
+        @include tablet {
+            max-width: 768px;
+            background-repeat: no-repeat;
+            background-image: url(../../images/6.reviews/BackgroundTablet1x.jpg\ \(2\).jpg);
+    
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: url(../../images/6.reviews/BackgroundTablet2x.jpg\ \(2\).jpg);
+            }
+        }
+    
+        @include desktop {
+            max-width: 1200px;
+            background-repeat: no-repeat;
+            padding: 200px 0;
+            background-image: url(../../images/6.reviews/BackgroudDesktop1x.jpg.jpg);
+    
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: url(../../images/6.reviews/BackgroudDesktop2x.jpg.jpg);
+            }
+        }
+    
+    &__slide {
+        width: 1000px;
+        height: 30px;
+        background: blue;
+    }
+}
+
+
+.image {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+.text {
+    background-color: #84A178;
+    color: #FCFCFC;
+    width: 202px; 
+    height: 186px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.55;
+    letter-spacing: 0.03em;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    
+}
+
+.heading {
+    font-family: "Montserrat", sans-serif; 
+    weight: 500; 
+    font-size:  20px;
+    line-height: 37.2px;
+    
+}
