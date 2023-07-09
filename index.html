@@ -17,46 +17,23 @@
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/main.min.css" />
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-        
-        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+       
         
 </head>
 
 <body> 
-    <main>
-    <!-- Slider main container -->
-    <section class="section swiper"> 
-        <!-- Additional required wrapper -->
-        <ul class="swiper__wrapper"> 
-            <!-- Slides -->
-            <li class="swiper__item">
-                <img class="swiper__gallery" src="/images/6.reviews/lodyDesktop1x.jpg.jpg" />
-                <div class="swiper__slide">
-                    <img class="swiper__image" src="images/6.reviews/Emily1x.jpg.jpg" alt="kobieta" />
-                    <p class="swiper__text">
-                        I love visiting your cafe.
-                        You prepare the most delicious ice cream in Los Angeles!
-                        In addition, you have beautiful serving, cozy atmosphere and polite staff.
-                    </p>
-                    <h2 class="swiper__heading">Emily, Los Angeles</h2>
-            </li>
-        </ul>
-            <!---->
-            <div class="swiper__slide">Slide 2</div>
-            <div class="swiper__slide">Slide 3</div>
-            ... 
-        </div> 
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div> 
-    
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-    
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div> 
-    </div> 
+    <section class="section slider">
+        <img class="slider__gallery" src="/images/6.reviews/lodyDesktop1x.jpg.jpg">
+        <div>
+            <img class="slider__image" src="/images/6.reviews/Emily1x.jpg.jpg" alt="kobieta">
+            <p class="slider__text">
+                I love visiting your cafe. You prepare the most delicious ice
+                cream in Los Angeles! In addition, you have beautiful serving,
+                cozy atmosphere and polite staff.
+            </p>
+            <h2 class="slider__heading">Emily, Los Angeles</h2>
+        </div>
+    </section>
 
     
 
@@ -559,11 +536,7 @@
         </div> 
     </div> -->
 
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-        crossorigin="anonymous"></script>
    
-    <script src="./js/mobile-menu.js"></script>
     
 
 
@@ -581,76 +554,3 @@
 </html>
 
 
-<main>
-    <!-- Slider main container -->
-    <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper" id="swiper-wrapper-d8eae2ff8531c165" aria-live="polite"
-            style="transition-duration: 0ms; transform: translate3d(-270px, 0px, 0px);">
-            <!-- Slides -->
-
-
-
-            ...
-            <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 3" data-swiper-slide-index="1"
-                style="width: 135px;">
-                <img class="swiper__gallery" src="/images/6.reviews/lodyDesktop1x.jpg.jpg">
-
-                <img class="swiper__image" src="images/6.reviews/Emily1x.jpg.jpg" alt="kobieta">
-                <p class="swiper__text">
-                    I love visiting your cafe. You prepare the most delicious ice
-                    cream in Los Angeles! In addition, you have beautiful serving,
-                    cozy atmosphere and polite staff.
-                </p>
-                <h2 class="swiper__heading">Emily, Los Angeles</h2>
-            </div>
-            <div class="swiper-slide swiper-slide-prev" role="group" aria-label="3 / 3" data-swiper-slide-index="2"
-                style="width: 135px;">
-                <img class="swiper__gallery" src="/images/reviews/lodyposypkaDesktop1x.jpg.jpg">
-
-                <img class="swiper__image" src="/images/reviews/Bryan1x.jpg.jpg" alt="kobieta">
-                <p class="swiper__text">
-                    Every day we come to you with friends after classes in college.
-                    We love your ice cream and casual atmosphere!
-                </p>
-                <h2 class="swiper__heading">Bryan, New-York</h2>
-            </div>
-            <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 3" data-swiper-slide-index="0"
-                style="width: 135px;">
-                <img class="swiper__gallery" src="/images/reviews/lodynapatykuDesktop1x.jpg.jpg">
-
-                <img class="swiper__image" src="/images/reviews/Diana1x.jpg.jpg" alt="kobieta">
-                <p class="swiper__text">
-                    Ice cream is my passion!
-                    I love your chocolate hazelnut ice cream!
-                    And I really like the excellent service - always
-                    served politely and quickly!
-                </p>
-                <h2 class="swiper__heading">Diana, Chicago</h2>
-            </div>
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"><span
-                class="swiper-pagination-bullet swiper-pagination-bullet-active" aria-current="true"></span><span
-                class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
-            aria-controls="swiper-wrapper-d8eae2ff8531c165"></div>
-        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
-            aria-controls="swiper-wrapper-d8eae2ff8531c165"></div>
-
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar swiper-scrollbar-horizontal">
-            <div class="swiper-scrollbar-drag"
-                style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms; width: 44.3333px;">
-            </div>
-        </div>
-        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-    </div>
-</main>
-
-<script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-    crossorigin="anonymous"></script>
-<script src="./js/swiper.js"></script>
